@@ -5,7 +5,9 @@
 
 
 ## 📖 The Story Behind the Project
-This project was born out of a desire to create something special, engaging, and personalized for my student, **Ibrahim**. Traditional tasbih counters are great, but I wanted to build an interactive, modern web application that he could use anywhere—whether on his computer or his phone. 
+This project was born out of a very specific (and frustrating!) incident. My student, **Ibrahim**, had been diligently using a traditional tasbih counter and had reached an amazing milestone of around 2,100 counts. Unfortunately, someone accidentally pressed the reset button, completely wiping out all his hard work in an instant! 
+
+To make sure that never happened again, I decided to build him a custom, personalized digital web application. I wanted to create something safe and interactive that he could use anywhere—whether on his computer or his phone, without the fear of losing his progress.
 
 To make his learning experience more interactive, I designed the UI to look and feel like a real 3D physical tasbih device. It includes his name to make it personal, customizable colors so he can pick his favorite, and a built-in library of short Dhikr with their Arabic text, transliteration, and English meanings to help him learn. 
 
