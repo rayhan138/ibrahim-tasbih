@@ -1,6 +1,5 @@
 # Ibrahim's Digital Tasbih
 
-![Digital Tasbih]
 
 <img width="620" height="827" alt="Screenshot 2026-05-11 012916" src="https://github.com/user-attachments/assets/41efd38e-3e13-4512-9354-b8c4263d65e6" />
 
