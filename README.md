@@ -4,9 +4,6 @@
 
 <img width="620" height="827" alt="Screenshot 2026-05-11 012916" src="https://github.com/user-attachments/assets/41efd38e-3e13-4512-9354-b8c4263d65e6" />
 
-<img width="499" height="834" alt="Screenshot 2026-05-11 012830" src="https://github.com/user-attachments/assets/6b328cba-1224-4866-918a-1ed4ca08a067" />
-
-
 
 ## 📖 The Story Behind the Project
 This project was born out of a desire to create something special, engaging, and personalized for my student, **Ibrahim**. Traditional tasbih counters are great, but I wanted to build an interactive, modern web application that he could use anywhere—whether on his computer or his phone. 
