@@ -27,8 +27,6 @@
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
   overflow-x: hidden;
@@ -58,6 +56,7 @@ body {
 
 /* Dhikr Selection Top Bar */
 .top-bar {
+  margin-top: auto;
   width: 100%;
   max-width: 320px;
   display: flex;
@@ -239,6 +238,7 @@ body {
 
 /* Color Picker Swatches */
 .color-picker {
+  margin-bottom: auto;
   display: flex;
   justify-content: center;
   gap: 15px;
