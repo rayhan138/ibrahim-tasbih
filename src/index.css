@@ -263,25 +263,72 @@ body {
 }
 
 /* Media Queries for Responsiveness */
-@media (max-width: 360px) {
+@media (max-width: 339px) {
   .device-body {
-    transform: scale(0.9);
-    transform-origin: top center;
-    margin-bottom: -40px;
+    width: 280px;
+    height: 380px;
+    padding: 30px 15px;
+    border-radius: 90px 90px 110px 110px;
   }
-}
-
-@media (max-width: 320px) {
-  body {
-    min-width: 280px;
+  .screen-bezel {
+    height: 90px;
+    margin-bottom: 35px;
   }
-  .device-body {
-    transform: scale(0.8);
-    transform-origin: top center;
-    margin-bottom: -80px;
+  .screen-text {
+    font-size: 3.5rem;
+  }
+  .device-logo {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  .main-button-container {
+    width: 120px;
+    height: 120px;
+  }
+  .main-button {
+    width: 95px;
+    height: 95px;
   }
   .dhikr-arabic {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 300px) {
+  body {
+    min-width: 260px;
+  }
+  .device-body {
+    width: 240px;
+    height: 340px;
+    padding: 25px 15px;
+    border-radius: 80px 80px 100px 100px;
+  }
+  .screen-bezel {
+    height: 80px;
+    margin-bottom: 30px;
+  }
+  .screen-text {
+    font-size: 2.8rem;
+  }
+  .device-logo {
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+  }
+  .main-button-container {
+    width: 100px;
+    height: 100px;
+  }
+  .main-button {
+    width: 80px;
+    height: 80px;
+  }
+  .dhikr-arabic {
+    font-size: 1.6rem;
+  }
+  .color-swatch {
+    width: 30px;
+    height: 30px;
   }
 }
 
@@ -297,8 +344,28 @@ body {
     margin-bottom: 5px;
   }
   .device-body {
-    transform: scale(0.85);
-    transform-origin: top center;
-    margin-bottom: -60px;
+    width: 280px;
+    height: 380px;
+    padding: 30px 15px;
+    border-radius: 90px 90px 110px 110px;
+  }
+  .screen-bezel {
+    height: 90px;
+    margin-bottom: 35px;
+  }
+  .screen-text {
+    font-size: 3.5rem;
+  }
+  .device-logo {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  .main-button-container {
+    width: 120px;
+    height: 120px;
+  }
+  .main-button {
+    width: 95px;
+    height: 95px;
   }
 }
