@@ -31,7 +31,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
   background: radial-gradient(circle at center, #334155 0%, #0f172a 100%);
   user-select: none;
   -webkit-user-select: none;
@@ -40,17 +41,19 @@ body {
 
 #root {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .app-container {
   width: 100%;
-  height: 100%;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
-  padding-top: 20px;
+  padding: 20px 10px;
 }
 
 /* Dhikr Selection Top Bar */
@@ -257,4 +260,45 @@ body {
 .color-swatch.active {
   border-color: #f8fafc;
   transform: scale(1.2);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 360px) {
+  .device-body {
+    transform: scale(0.9);
+    transform-origin: top center;
+    margin-bottom: -40px;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    min-width: 280px;
+  }
+  .device-body {
+    transform: scale(0.8);
+    transform-origin: top center;
+    margin-bottom: -80px;
+  }
+  .dhikr-arabic {
+    font-size: 2rem;
+  }
+}
+
+@media (max-height: 700px) and (orientation: landscape) {
+  .app-container {
+    padding-top: 10px;
+  }
+  .dhikr-info-container {
+    min-height: 100px;
+  }
+  .dhikr-arabic {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+  }
+  .device-body {
+    transform: scale(0.85);
+    transform-origin: top center;
+    margin-bottom: -60px;
+  }
 }
